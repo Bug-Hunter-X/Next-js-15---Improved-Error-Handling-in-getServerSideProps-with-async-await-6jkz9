@@ -1,0 +1,1 @@
+In Next.js 15, using the `async/await` syntax within a `getServerSideProps` function can lead to unexpected behavior if not handled correctly.  Specifically, if an error occurs within the `async` function, it might not be caught properly, leading to a 500 server error without clear debugging information.  The standard `try...catch` block may not reliably capture these errors.
